@@ -35,7 +35,7 @@ This guide covers deploying Glowing Fiesta to production environments. The appli
 
 ```bash
 # Clone repository
-git clone https://github.com/your-org/glowing-fiesta.git
+git clone https://github.com/jacques/glowing-fiesta.git
 cd glowing-fiesta
 
 # Install dependencies
