@@ -124,10 +124,6 @@ max_connections = 200
 wait_timeout = 300
 interactive_timeout = 300
 
-# Query cache (optional)
-query_cache_type = 1
-query_cache_size = 64M
-
 # Slow query log
 slow_query_log = 1
 slow_query_log_file = /var/log/mysql/slow-query.log
