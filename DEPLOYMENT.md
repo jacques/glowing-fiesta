@@ -284,7 +284,7 @@ process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/glowing-fiesta/artisan queue:work redis --sleep=3 --tries=3 --max-time=3600
 autostart=true
 autorestart=true
-stopascompletable=true
+stopasgroup=true
 user=www-data
 numprocs=4
 redirect_stderr=true
